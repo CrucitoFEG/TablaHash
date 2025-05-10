@@ -23,6 +23,7 @@ public class Main {
 
         // Paso 4: Mostrar resultados
         System.out.println("------------------------------Ejercicio 1----------------------------------");
+        System.out.println("Hola mundo, hola universo. Mundo mundo mundo! Hola!");
         System.out.println("\nFrecuencia de palabras:");
         frecuencias.imprimirEntradas();       
         
