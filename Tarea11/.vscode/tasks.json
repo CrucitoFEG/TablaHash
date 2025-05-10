@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Java MySQL App",
+      "type": "shell",
+      "command": "java",
+      "args": [
+        "-cp",
+        ".:mysql-connector-java-8.0.28.jar:src",
+        "Main"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
