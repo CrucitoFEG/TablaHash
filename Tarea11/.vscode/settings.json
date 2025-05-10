@@ -1,0 +1,92 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "10.4.1.78",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "SDHAME",
+            "database": "olmeca",
+            "username": "usr_app_itop",
+            "password": "h6k1SVqvix"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "www.server.daossystem.pro",
+            "port": 3301,
+            "driver": "MySQL",
+            "name": "Progra",
+            "username": "usr_progra2_lf_2024",
+            "password": "miumg2024",
+            "database": "bd_umg_market"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "username": "root",
+            "password": "Abc123",
+            "name": "mysql",
+            "database": "mydatabase"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "www.server.daossystem.pro",
+            "port": 3301,
+            "driver": "MySQL",
+            "name": "RepasoFinal",
+            "database": "bd_repaso_prg2_2024",
+            "username": "usr_repaso_prg2_2024",
+            "password": "5sr_r2p1s4_prg2_2024"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "www.server.daossystem.pro",
+            "port": 3301,
+            "driver": "MySQL",
+            "name": "ExamenFinal",
+            "database": "bd_final_prog2_2024",
+            "username": "usr_final_prog2_2024",
+            "password": "5sr_f3n1l_pr4g2_2024"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "username": "usuario",
+            "password": "abc123",
+            "database": "nombre_base",
+            "name": "mysql"
+        }
+    ]
+}
