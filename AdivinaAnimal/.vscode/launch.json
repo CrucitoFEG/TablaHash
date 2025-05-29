@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MySQL",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "AdivinaAnimal",
+            "cwd": "${workspaceFolder}/src",
+            "vmArgs": "-cp .:../lib/mysql-connector-java-8.0.28.jar"
+        }
+    ]
+}
